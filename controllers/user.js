@@ -126,7 +126,7 @@ const usercontrollers = {
       },
     });
 
-    const link =`http://localhost:5173/reset-password/new-password/${OTP}`;
+    const link =`https://unique-kelpie-dbf54e.netlify.app/reset-password/new-password/${OTP}`;
 
     const mailOptions = {
       from: 'Password_reset_noreply@gmail.com',
@@ -198,7 +198,7 @@ const usercontrollers = {
         },
       });
   
-      const activationLink = ` http://localhost:5173/activate-account/${activationToken}`;
+      const activationLink = ` https://unique-kelpie-dbf54e.netlify.app/activate-account/${activationToken}`;
       const mailOptions = {
         from: 'noreply@example.com',
         to: email,
@@ -231,7 +231,7 @@ const usercontrollers = {
         },
       });
 
-      const activationLink = ` http://localhost:5173/activate-account/${activationToken}`;
+      const activationLink = ` https://unique-kelpie-dbf54e.netlify.app/activate-account/${activationToken}`;
       const mailOptions = {
         from: 'noreply@example.com',
         to: email,
